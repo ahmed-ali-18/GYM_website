@@ -187,7 +187,3 @@ Or simply double-click `index.html` — it opens directly in any browser.
 
 ---
 
-## 📄 License
-
-This project is open for personal and commercial use.
-Built with 💪 in Hyderabad, India.
