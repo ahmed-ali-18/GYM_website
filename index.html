@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IRONFORGE GYM</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">⚡</span>
+      <span class="logo-text">IRONFORGE</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#stats">Stats</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">JOIN NOW</a>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">FORGE</div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 2010 · Premium Fitness</p>
+      <h1 class="hero-title">
+        BUILT<br/>
+        <span class="hero-accent">DIFFERENT.</span>
+      </h1>
+      <p class="hero-sub">No excuses. No shortcuts. Just iron, sweat, and results. Your transformation starts the moment you walk through our doors.</p>
+      <div class="hero-actions">
+        <a href="#programs" class="btn-primary">EXPLORE PROGRAMS</a>
+        <a href="#stats" class="btn-ghost">OUR RESULTS →</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-ring">
+        <span class="badge-text">FREE TRIAL · FREE TRIAL · FREE TRIAL · FREE TRIAL ·</span>
+      </div>
+      <div class="badge-center">7 DAY</div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-bar">
+    <div class="ticker-track">
+      <span>💪 STRENGTH TRAINING</span>
+      <span>🔥 FAT BURN</span>
+      <span>🏋️ POWERLIFTING</span>
+      <span>⚡ HIIT CLASSES</span>
+      <span>🧘 YOGA &amp; MOBILITY</span>
+      <span>🥊 BOXING</span>
+      <span>🚴 CYCLING</span>
+      <span>🏆 PERSONAL TRAINING</span>
+      <span>💪 STRENGTH TRAINING</span>
+      <span>🔥 FAT BURN</span>
+      <span>🏋️ POWERLIFTING</span>
+      <span>⚡ HIIT CLASSES</span>
+      <span>🧘 YOGA &amp; MOBILITY</span>
+      <span>🥊 BOXING</span>
+      <span>🚴 CYCLING</span>
+      <span>🏆 PERSONAL TRAINING</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">WHAT WE OFFER</span>
+        <h2 class="section-title">WORLD-CLASS<br/><span class="accent">FACILITIES</span></h2>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon animate-pulse-icon">🏋️</div>
+          </div>
+          <h3>Free Weights Zone</h3>
+          <p>Over 500+ pieces of premium equipment. Dumbbells, barbells, and cable machines for every muscle group.</p>
+          <span class="service-tag">OPEN 24/7</span>
+        </div>
+
+        <div class="service-card featured-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon animate-spin-icon">⚡</div>
+          </div>
+          <h3>HIIT Arena</h3>
+          <p>High-intensity interval training in a dedicated 5,000 sq ft arena with battle ropes, sleds, and more.</p>
+          <span class="service-tag">MOST POPULAR</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon animate-bounce-icon">🥊</div>
+          </div>
+          <h3>Combat Studio</h3>
+          <p>Boxing rings, punching bags, and MMA mats. Train like a fighter with certified combat coaches.</p>
+          <span class="service-tag">BEGINNERS OK</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon animate-float-icon">🧘</div>
+          </div>
+          <h3>Yoga &amp; Recovery</h3>
+          <p>Dedicated mind-body studio with infrared sauna, ice baths, and daily mobility classes.</p>
+          <span class="service-tag">DAILY CLASSES</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon animate-rotate-icon">🚴</div>
+          </div>
+          <h3>Cycling Studio</h3>
+          <p>40-bike studio with immersive lighting and synchronized music. Burn up to 800 calories per session.</p>
+          <span class="service-tag">BOOK ONLINE</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <div class="service-icon animate-shake-icon">🏆</div>
+          </div>
+          <h3>Elite Coaching</h3>
+          <p>1-on-1 sessions with certified personal trainers. Customized plans, nutrition guidance, and accountability.</p>
+          <span class="service-tag">RESULTS GUARANTEED</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs" id="programs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">TRAINING PLANS</span>
+        <h2 class="section-title">CHOOSE YOUR<br/><span class="accent">PROGRAM</span></h2>
+      </div>
+      <div class="programs-grid">
+
+        <div class="program-card">
+          <div class="program-number">01</div>
+          <div class="program-icon">🔥</div>
+          <h3>Fat Furnace</h3>
+          <p>8-week aggressive fat loss protocol combining HIIT, resistance training and nutrition coaching.</p>
+          <ul class="program-features">
+            <li>✓ 5 sessions/week</li>
+            <li>✓ Meal plan included</li>
+            <li>✓ Weekly check-ins</li>
+          </ul>
+          <div class="program-duration">8 WEEKS</div>
+          <a href="#contact" class="program-btn">START NOW</a>
+        </div>
+
+        <div class="program-card program-highlight">
+          <div class="program-badge">BEST VALUE</div>
+          <div class="program-number">02</div>
+          <div class="program-icon">💪</div>
+          <h3>Power Builder</h3>
+          <p>12-week hypertrophy program for serious muscle growth. Progressive overload, compound lifts, maximum gains.</p>
+          <ul class="program-features">
+            <li>✓ 6 sessions/week</li>
+            <li>✓ Supplement guide</li>
+            <li>✓ App tracking</li>
+            <li>✓ 1 PT session/week</li>
+          </ul>
+          <div class="program-duration">12 WEEKS</div>
+          <a href="#contact" class="program-btn">START NOW</a>
+        </div>
+
+        <div class="program-card">
+          <div class="program-number">03</div>
+          <div class="program-icon">⚡</div>
+          <h3>Athletic Edge</h3>
+          <p>Sport-specific conditioning for athletes. Speed, agility, power, and endurance all in one elite program.</p>
+          <ul class="program-features">
+            <li>✓ 4 sessions/week</li>
+            <li>✓ Sport analysis</li>
+            <li>✓ Recovery protocol</li>
+          </ul>
+          <div class="program-duration">10 WEEKS</div>
+          <a href="#contact" class="program-btn">START NOW</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="stats-bg-text">RESULTS</div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon animate-pulse-icon">👥</div>
+          <div class="stat-number" data-target="12500">0</div>
+          <div class="stat-label">MEMBERS STRONG</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon animate-float-icon">🏋️</div>
+          <div class="stat-number" data-target="500">0</div>
+          <div class="stat-label">EQUIPMENT PIECES</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon animate-bounce-icon">🏆</div>
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-label">% SATISFACTION</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon animate-spin-icon">⚡</div>
+          <div class="stat-number" data-target="14">0</div>
+          <div class="stat-label">YEARS OF EXCELLENCE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">THE EXPERTS</span>
+        <h2 class="section-title">MEET YOUR<br/><span class="accent">COACHES</span></h2>
+      </div>
+      <div class="team-grid">
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-placeholder">
+              <span class="avatar-icon">💪</span>
+            </div>
+            <div class="team-social">
+              <span>@</span>
+            </div>
+          </div>
+          <h3>Marcus Steel</h3>
+          <p class="team-role">Head Strength Coach</p>
+          <p class="team-bio">Former Olympic powerlifter. 15 years coaching elite athletes and everyday champions.</p>
+          <div class="team-specialties">
+            <span>Powerlifting</span>
+            <span>Hypertrophy</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-placeholder">
+              <span class="avatar-icon">🔥</span>
+            </div>
+            <div class="team-social">
+              <span>@</span>
+            </div>
+          </div>
+          <h3>Priya Voss</h3>
+          <p class="team-role">HIIT &amp; Conditioning</p>
+          <p class="team-bio">CrossFit Level 3, NSCA certified. Specializes in metabolic conditioning and fat loss programs.</p>
+          <div class="team-specialties">
+            <span>HIIT</span>
+            <span>Fat Loss</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-placeholder">
+              <span class="avatar-icon">🥊</span>
+            </div>
+            <div class="team-social">
+              <span>@</span>
+            </div>
+          </div>
+          <h3>Darius Kane</h3>
+          <p class="team-role">Combat Arts Coach</p>
+          <p class="team-bio">Pro MMA fighter turned coach. Teaches boxing, Muay Thai, and functional combat fitness.</p>
+          <div class="team-specialties">
+            <span>Boxing</span>
+            <span>MMA</span>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-placeholder">
+              <span class="avatar-icon">🧘</span>
+            </div>
+            <div class="team-social">
+              <span>@</span>
+            </div>
+          </div>
+          <h3>Lena Cruz</h3>
+          <p class="team-role">Yoga &amp; Recovery</p>
+          <p class="team-bio">500hr Yoga Alliance certified. Expert in mobility, injury prevention, and mind-body performance.</p>
+          <div class="team-specialties">
+            <span>Yoga</span>
+            <span>Recovery</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">MEMBERSHIP</span>
+        <h2 class="section-title">SIMPLE<br/><span class="accent">PRICING</span></h2>
+      </div>
+      <div class="pricing-grid">
+
+        <div class="pricing-card">
+          <div class="pricing-tier">STARTER</div>
+          <div class="pricing-price"><span class="currency">₹</span>1,499<span class="period">/mo</span></div>
+          <ul class="pricing-list">
+            <li>✓ Full gym access</li>
+            <li>✓ Locker room</li>
+            <li>✓ Group classes (2/week)</li>
+            <li class="disabled">✗ Personal training</li>
+            <li class="disabled">✗ Nutrition plan</li>
+          </ul>
+          <a href="#contact" class="btn-ghost full-width">GET STARTED</a>
+        </div>
+
+        <div class="pricing-card pricing-featured">
+          <div class="pricing-tier">PRO</div>
+          <div class="pricing-price"><span class="currency">₹</span>2,999<span class="period">/mo</span></div>
+          <ul class="pricing-list">
+            <li>✓ Full gym access</li>
+            <li>✓ Premium locker</li>
+            <li>✓ Unlimited classes</li>
+            <li>✓ 2 PT sessions/mo</li>
+            <li class="disabled">✗ Nutrition plan</li>
+          </ul>
+          <a href="#contact" class="btn-primary full-width">GET STARTED</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-tier">ELITE</div>
+          <div class="pricing-price"><span class="currency">₹</span>4,999<span class="period">/mo</span></div>
+          <ul class="pricing-list">
+            <li>✓ Full gym access</li>
+            <li>✓ VIP locker suite</li>
+            <li>✓ Unlimited classes</li>
+            <li>✓ 8 PT sessions/mo</li>
+            <li>✓ Custom nutrition plan</li>
+          </ul>
+          <a href="#contact" class="btn-ghost full-width">GET STARTED</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-left">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">READY TO<br/><span class="accent">TRANSFORM?</span></h2>
+          <p>Drop us a message and our team will reach out within 24 hours with your free trial details.</p>
+          <div class="contact-info">
+            <div class="info-row"><span class="info-icon">📍</span><span>Banjara Hills, Hyderabad, Telangana</span></div>
+            <div class="info-row"><span class="info-icon">📞</span><span>+91 98765 43210</span></div>
+            <div class="info-row"><span class="info-icon">🕐</span><span>Mon–Sun: 5:00 AM – 11:00 PM</span></div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form class="contact-form" action="https://formspree.io/f/xzdwvpea" method="POST">
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>First Name</label>
+      <input type="text" name="first_name" placeholder="John" required />
+    </div>
+    <div class="form-group">
+      <label>Last Name</label>
+      <input type="text" name="last_name" placeholder="Doe" required />
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>Email</label>
+    <input type="email" name="email" placeholder="john@example.com" required />
+  </div>
+
+  <div class="form-group">
+    <label>Phone</label>
+    <input type="tel" name="phone" placeholder="+91 00000 00000" required />
+  </div>
+
+  <div class="form-group">
+    <label>Interested In</label>
+    <select name="program" required>
+      <option value="">Select a program...</option>
+      <option value="Fat Furnace">Fat Furnace</option>
+      <option value="Power Builder">Power Builder</option>
+      <option value="Athletic Edge">Athletic Edge</option>
+      <option value="General Membership">General Membership</option>
+    </select>
+  </div>
+
+  <!-- Spam protection -->
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <button type="submit" class="btn-primary full-width">CLAIM FREE TRIAL 🔥</button>
+
+</form>
+
+<div id="thank-you" style="display:none; text-align:center; padding:2rem; color:#ff4500; font-family:'Bebas Neue',cursive; font-size:1.8rem;">
+  🔥 YOU'RE IN! We'll contact you within 24 hours.
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">IRONFORGE</span>
+          </div>
+          <p>Forging champions since 2010. The iron never lies — and neither do we.</p>
+        </div>
+        <div class="footer-links-group">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#programs">Fat Furnace</a></li>
+            <li><a href="#programs">Power Builder</a></li>
+            <li><a href="#programs">Athletic Edge</a></li>
+            <li><a href="#contact">Free Trial</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter / X</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 IRONFORGE GYM. All rights reserved.</p>
+        <p>Built with 💪 in Hyderabad</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    }
+
+    // Stat counter animation
+    function animateCounters() {
+      const counters = document.querySelectorAll('.stat-number');
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        const duration = 2000;
+        const step = target / (duration / 16);
+        let current = 0;
+        const timer = setInterval(() => {
+          current += step;
+          if (current >= target) {
+            counter.textContent = target.toLocaleString();
+            clearInterval(timer);
+          } else {
+            counter.textContent = Math.floor(current).toLocaleString();
+          }
+        }, 16);
+      });
+    }
+
+    // Intersection observer for counters
+    const statsSection = document.querySelector('.stats');
+    let counted = false;
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !counted) {
+        animateCounters();
+        counted = true;
+      }
+    }, { threshold: 0.3 });
+    if (statsSection) observer.observe(statsSection);
+
+    // Badge rotation text
+    const badgeText = document.querySelector('.badge-text');
+    if (badgeText) {
+      const text = badgeText.textContent;
+      badgeText.innerHTML = text.split('').map((char, i) =>
+        `<span style="transform: rotate(${i * (360 / text.length)}deg) translateY(-48px); display:inline-block; position:absolute; left:50%; top:50%; transform-origin: 0 48px; transform: rotate(${i * (360 / text.length)}deg)">${char}</span>`
+      ).join('');
+    }
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+
+    /*form
+    const form = document.querySelector('.contact-form');
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const res = await fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      form.style.display = 'none';
+      document.getElementById('thank-you').style.display = 'block';
+    }
+  });*/
+  </script>
+
+</body>
+</html>
